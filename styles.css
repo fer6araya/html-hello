@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+
+.feed {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background: lightgrey;
+}
+
+.card-stack {
+    display:block
+}
+
+.card {
+    width: 480px;
+    flex-direction: column; 
+    background: white;
+}
+
+.card-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 5px;
+}
+
+.card-header h2 {
+    width: 80%;
+}
+
+.card-header h3{
+    width: 20%;
+}
+
+.card-body {
+    width: 100%;
+    height: 300px; 
+}
+
+.card-footer {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+}
+
+.space{
+    width: 100%;
+    height: 50px;
+}
+
+
+/* div {
+    border: 2px solid blue;
+} */
